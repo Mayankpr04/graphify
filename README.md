@@ -11,7 +11,7 @@ git clone https://github.com/Mayankpr04/graphify.git
 ```
 Then navigate to the directory and install
 
-```powershell
+```
 cd ~/graphify
 python -m pip install -e .
 ```
@@ -20,13 +20,13 @@ python -m pip install -e .
 
 From inside any Python codebase:
 
-```powershell
+```
 graph --open
 ```
 
 You can also run:
 
-```powershell
+```
 callmap . -o graph.html --open
 python -m callmap . -o graph.html
 ```
