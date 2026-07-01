@@ -1,0 +1,25 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+build/
+dist/
+
+# Generated graph outputs
+callmap.html
+graph.html
+demo_output.html
+smoke.html
+graph-command-smoke.html
+
+# Legacy root-level copies; the package lives in /callmap and demo in /demo_project.
+/cli.py
+/core.py
+/render.py
+/__init__.py
+/__main__.py
+/main.py
+/utilities.py
+/helpers.py
+/lib/
